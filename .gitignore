@@ -1,0 +1,8 @@
+node_modules/
+.next/
+AGENTS.md
+out/
+build/
+coverage/
+.env*
+!.env.example
