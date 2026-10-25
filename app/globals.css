@@ -300,8 +300,8 @@ button {
   border: 0;
   border-radius: 10px;
   color: white;
-  background: var(--purple);
-  box-shadow: 0 7px 16px rgba(110, 98, 206, .2);
+  background: var(--accent);
+  box-shadow: 0 7px 16px rgba(199, 25, 62, .24);
   cursor: pointer;
   font-size: 13px;
   font-weight: 600;
@@ -310,8 +310,8 @@ button {
 
 .primary-button:hover {
   transform: translateY(-1px);
-  background: var(--purple-dark);
-  box-shadow: 0 9px 20px rgba(110, 98, 206, .27);
+  background: var(--accent-hover);
+  box-shadow: 0 9px 20px rgba(199, 25, 62, .32);
 }
 
 .primary-button span {
@@ -395,7 +395,7 @@ button {
   border: 0;
   border-radius: 9px;
   color: white;
-  background: var(--purple);
+  background: var(--accent);
   cursor: pointer;
   font-size: 12px;
   font-weight: 600;
